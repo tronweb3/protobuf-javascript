@@ -3619,7 +3619,7 @@ void Generator::GenerateFile(const GeneratorOptions& options,
   // Generate "require" statements.
   if ((options.import_style == GeneratorOptions::kImportCommonJs ||
        options.import_style == GeneratorOptions::kImportCommonJsStrict)) {
-    printer->Print("var jspb = require('google-protobuf');\n");
+    printer->Print("var jspb = require('google-protobuf-js');\n");
     printer->Print("var goog = jspb;\n");
 
     // Do not use global scope in strict mode

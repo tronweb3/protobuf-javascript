@@ -32,7 +32,7 @@
 
 
 
-var googleProtobuf = require('google-protobuf');
+var googleProtobuf = require('google-protobuf-js');
 var asserts = require('closure_asserts_commonjs');
 var global = Function('return this')();
 

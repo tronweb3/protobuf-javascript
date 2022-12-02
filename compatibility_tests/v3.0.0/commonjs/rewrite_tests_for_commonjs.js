@@ -64,7 +64,7 @@ var pkg = null;
 
 // Header: goes in every file at the top.
 console.log("var global = Function('return this')();");
-console.log("var googleProtobuf = require('google-protobuf');");
+console.log("var googleProtobuf = require('google-protobuf-js');");
 console.log("var testdeps = require('testdeps_commonjs');");
 console.log("global.goog = testdeps.goog;");
 console.log("global.jspb = testdeps.jspb;");
