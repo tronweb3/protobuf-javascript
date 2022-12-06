@@ -32,7 +32,7 @@
 
 
 
-const googleProtobuf = require('google-protobuf-js');
+const googleProtobuf = require('@tronweb3/google-protobuf');
 const global = Function('return this')();
 
 googleProtobuf.exportSymbol('jspb.Message', googleProtobuf.Message, global);

@@ -114,7 +114,7 @@ std::string GetRootPath(const std::string& from_filename,
                         const std::string& to_filename) {
   if (to_filename.find("google/protobuf") == 0) {
     // Well-known types (.proto files in the google/protobuf directory) are
-    // assumed to come from the 'google-protobuf' npm package.  We may want to
+    // assumed to come from the '@tronweb3/google-protobuf' npm package.  We may want to
     // generalize this exception later by letting others put generated code in
     // their own npm packages.
     return "google-protobuf/";
@@ -3619,7 +3619,7 @@ void Generator::GenerateFile(const GeneratorOptions& options,
   // Generate "require" statements.
   if ((options.import_style == GeneratorOptions::kImportCommonJs ||
        options.import_style == GeneratorOptions::kImportCommonJsStrict)) {
-    printer->Print("var jspb = require('google-protobuf-js');\n");
+    printer->Print("var jspb = require('@tronweb3/google-protobuf');\n");
     printer->Print("var goog = jspb;\n");
 
     // Do not use global scope in strict mode
