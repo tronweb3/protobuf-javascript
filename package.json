@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:start940315/protobuf-javascript-js.git"
+    "url": "https://github.com/tronsuper/protobuf-javascript"
   },
   "author": "Google Protocol Buffers Team",
   "license": "(BSD-3-Clause AND Apache-2.0)"
