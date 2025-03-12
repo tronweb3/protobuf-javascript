@@ -1,3 +1,6 @@
+NOTE: This package is deprecated. Please use the official package google-protobuf instead.
+======
+
 Protocol Buffers - Google's data interchange format
 ===================================================
 
